@@ -1,4 +1,3 @@
-const { min, max } = require('lodash');
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
