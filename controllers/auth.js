@@ -14,6 +14,7 @@ const register = async (req, res) => {
 }
 
 const login = async (req, res) => {
+    console.log('Login route hit');
     const { email, password } = req.body;
 
     if (!email || !password) {
